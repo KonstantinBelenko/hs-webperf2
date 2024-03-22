@@ -22,7 +22,15 @@ filenames = [
     }
 ]
 
-img = Image.open(image_name)
 for filename in filenames:
-    img.thumbnail((filename['width'], filename['width']))
-    img.save(filename['name'], 'webp', optimize=True, quality=85)
+    img = Image.open(image_name)
+    img = img.convert('RGB')
+    
+    original_height = 1280
+    original_width = 1920
+    new_height = int((filename['width'] / original_width) * original_height)
+    img = img.resize((filename['width'], new_height), Image.LANCZOS)
+    
+    
+    img.save(filename['name'], 'webp', quality=85, optimize=True)    
+
