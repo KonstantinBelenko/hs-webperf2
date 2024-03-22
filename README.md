@@ -6,6 +6,9 @@ THIS IS STILL IN PROGRESS
 
 ## Stuff done
 
-1. Vite with imagemin & cssnano
-2. Convert images to .webp
-3. Installed font used in google fonts to local (Montserrat)
+- [x] Vite with imagemin & cssnano
+- [x] Convert images to .webp
+- [x] Installed font used in google fonts to local (Montserrat)
+- [ ] Setup lighthouse into GH CI
+- [ ] Add bundler, api & metric analytics
+- [ ] Add conditional redirects
