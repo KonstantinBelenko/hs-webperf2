@@ -15,4 +15,4 @@ for jpg in tqdm(jpgs):
     img = Image.open(jpg)
     img = img.convert('RGB')
     new_path = jpg.replace('.jpg', '.webp')
-    img.save(new_path, 'webp', optimize=True, quality=10)
+    img.save(new_path, 'webp', optimize=True, quality=70)
