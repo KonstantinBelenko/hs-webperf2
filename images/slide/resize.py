@@ -1,7 +1,7 @@
 import os
 from PIL import Image
 
-image_name = 'jay-wennington-N_Y88TWmGwA-unsplash.webp'
+image_name = 'jay-wennington-N_Y88TWmGwA-unsplash.jpg'
 
 filenames = [
     {
@@ -25,4 +25,4 @@ filenames = [
 img = Image.open(image_name)
 for filename in filenames:
     img.thumbnail((filename['width'], filename['width']))
-    img.save(filename['name'], 'webp')
+    img.save(filename['name'], 'webp', optimize=True, quality=85)
