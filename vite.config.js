@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite'
 import cssnano from 'cssnano'
 import imagemin from 'vite-plugin-imagemin'
+import pluginPurgeCss from '@mojojoejo/vite-plugin-purgecss'
 
 export default defineConfig({
   root: '.',
@@ -9,5 +10,5 @@ export default defineConfig({
     assetsDir: 'assets',
     minify: 'terser',
   },
-  plugins: [imagemin(), cssnano()],
+  plugins: [imagemin(), cssnano(), pluginPurgeCss({})],
 })
