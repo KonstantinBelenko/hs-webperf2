@@ -3,7 +3,7 @@ import React from 'react'
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg bg-white shadow-lg">
+    <nav className="navbar navbar-expand-lg bg-white shadow-lg ">
       <div className="container">
         <button
           className="navbar-toggler"
@@ -16,11 +16,9 @@ function Navbar() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-
         <Link className="navbar-brand" href="/">
           Crispy Kitchen
         </Link>
-
         <div className="d-lg-none">
           <button
             type="button"
@@ -31,8 +29,7 @@ function Navbar() {
             Reservation
           </button>
         </div>
-
-        <div className="collapse navbar-collapse" id="navbarNav">
+        <div className="collapse lg:visible navbar-collapse" id="navbarNav">
           <ul className="navbar-nav mx-auto">
             <li className="nav-item">
               <Link className="nav-link active" href={'/'}>
@@ -63,9 +60,14 @@ function Navbar() {
                 Contact
               </Link>
             </li>
+
+            <li className="nav-item">
+              <Link className="nav-link" href="/cocktails">
+                Cocktails
+              </Link>
+            </li>
           </ul>
         </div>
-
         <div className="d-none d-lg-block">
           <button
             type="button"

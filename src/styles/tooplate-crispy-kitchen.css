@@ -288,19 +288,19 @@ strong {
 }
 
 .site-about-header {
-  background-image: url('/images/header/briana-tozour-V_Nkf1E-vYA-unsplash.webp');
+  background-image: url('/public/images/header/briana-tozour-V_Nkf1E-vYA-unsplash.jpg');
 }
 
 .site-menu-header {
-  background-image: url('/images/header/luisa-brimble-aFzg83dvnAI-unsplash.webp');
+  background-image: url('/public/images/header/luisa-brimble-aFzg83dvnAI-unsplash.jpg');
 }
 
 .site-news-header {
-  background-image: url('/images/header/priscilla-du-preez-W3SEyZODn8U-unsplash.webp');
+  background-image: url('/public/images/header/priscilla-du-preez-W3SEyZODn8U-unsplash.jpg');
 }
 
 .site-contact-header {
-  background-image: url('/images/header/rod-long-I79Pgmhmy5M-unsplash.webp');
+  background-image: url('/public/images/header/rod-long-I79Pgmhmy5M-unsplash.jpg');
 }
 
 .overlay {
@@ -628,7 +628,7 @@ strong {
 #BookingModal .modal-content::before {
   content: '';
   background-color: var(--white-color);
-  background-image: url('/images/sincerely-media-HoEYgBL_Gcs-unsplash.webp');
+  background-image: url('/public/images/sincerely-media-HoEYgBL_Gcs-unsplash.jpg');
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
@@ -677,7 +677,7 @@ strong {
 }
 
 .BgImage {
-  background-image: url('/images/alex-haney-CAhjZmVk5H4-unsplash.webp');
+  background-image: url('/public/images/alex-haney-CAhjZmVk5H4-unsplash.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -688,7 +688,7 @@ strong {
   FOOTER              
 -----------------------------------------*/
 .site-footer {
-  background-image: url('/images/daan-evers-tKN1WXrzQ3s-unsplash.webp');
+  background-image: url('/public/images/daan-evers-tKN1WXrzQ3s-unsplash.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -832,7 +832,7 @@ strong {
   }
 
   #BookingModal .modal-content::before {
-    background-image: url('/images/sincerely-media-HoEYgBL_Gcs-unsplash-mobile.webp');
+    background-image: url('/public/images/sincerely-media-HoEYgBL_Gcs-unsplash-mobile.jpg');
     background-position: bottom;
     top: auto;
     left: 0;
